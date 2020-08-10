@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9088EF4024DC573E00BA5159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088EF3F24DC573E00BA5159 /* AppDelegate.swift */; };
+		9088EF4224DC573E00BA5159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088EF4124DC573E00BA5159 /* SceneDelegate.swift */; };
+		9088EF4424DC573E00BA5159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088EF4324DC573E00BA5159 /* ViewController.swift */; };
+		9088EF4724DC573E00BA5159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9088EF4524DC573E00BA5159 /* Main.storyboard */; };
+		9088EF4924DC574000BA5159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9088EF4824DC574000BA5159 /* Assets.xcassets */; };
+		9088EF4C24DC574000BA5159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9088EF4A24DC574000BA5159 /* LaunchScreen.storyboard */; };
+		9088EF5724DC574000BA5159 /* Redmond_TabbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088EF5624DC574000BA5159 /* Redmond_TabbedTests.swift */; };
+		9088EF6224DC574000BA5159 /* Redmond_TabbedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088EF6124DC574000BA5159 /* Redmond_TabbedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9088EF5324DC574000BA5159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9088EF3424DC573E00BA5159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9088EF3B24DC573E00BA5159;
+			remoteInfo = "Redmond-Tabbed";
+		};
+		9088EF5E24DC574000BA5159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9088EF3424DC573E00BA5159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9088EF3B24DC573E00BA5159;
+			remoteInfo = "Redmond-Tabbed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9088EF3C24DC573E00BA5159 /* Redmond-Tabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redmond-Tabbed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9088EF3F24DC573E00BA5159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9088EF4124DC573E00BA5159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9088EF4324DC573E00BA5159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9088EF4624DC573E00BA5159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9088EF4824DC574000BA5159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9088EF4B24DC574000BA5159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9088EF4D24DC574000BA5159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9088EF5224DC574000BA5159 /* Redmond-TabbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Redmond-TabbedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9088EF5624DC574000BA5159 /* Redmond_TabbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redmond_TabbedTests.swift; sourceTree = "<group>"; };
+		9088EF5824DC574000BA5159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9088EF5D24DC574000BA5159 /* Redmond-TabbedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Redmond-TabbedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9088EF6124DC574000BA5159 /* Redmond_TabbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redmond_TabbedUITests.swift; sourceTree = "<group>"; };
+		9088EF6324DC574000BA5159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9088EF3924DC573E00BA5159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088EF4F24DC574000BA5159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088EF5A24DC574000BA5159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9088EF3324DC573E00BA5159 = {
+			isa = PBXGroup;
+			children = (
+				9088EF3E24DC573E00BA5159 /* Redmond-Tabbed */,
+				9088EF5524DC574000BA5159 /* Redmond-TabbedTests */,
+				9088EF6024DC574000BA5159 /* Redmond-TabbedUITests */,
+				9088EF3D24DC573E00BA5159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9088EF3D24DC573E00BA5159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9088EF3C24DC573E00BA5159 /* Redmond-Tabbed.app */,
+				9088EF5224DC574000BA5159 /* Redmond-TabbedTests.xctest */,
+				9088EF5D24DC574000BA5159 /* Redmond-TabbedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9088EF3E24DC573E00BA5159 /* Redmond-Tabbed */ = {
+			isa = PBXGroup;
+			children = (
+				9088EF3F24DC573E00BA5159 /* AppDelegate.swift */,
+				9088EF4124DC573E00BA5159 /* SceneDelegate.swift */,
+				9088EF4324DC573E00BA5159 /* ViewController.swift */,
+				9088EF4524DC573E00BA5159 /* Main.storyboard */,
+				9088EF4824DC574000BA5159 /* Assets.xcassets */,
+				9088EF4A24DC574000BA5159 /* LaunchScreen.storyboard */,
+				9088EF4D24DC574000BA5159 /* Info.plist */,
+			);
+			path = "Redmond-Tabbed";
+			sourceTree = "<group>";
+		};
+		9088EF5524DC574000BA5159 /* Redmond-TabbedTests */ = {
+			isa = PBXGroup;
+			children = (
+				9088EF5624DC574000BA5159 /* Redmond_TabbedTests.swift */,
+				9088EF5824DC574000BA5159 /* Info.plist */,
+			);
+			path = "Redmond-TabbedTests";
+			sourceTree = "<group>";
+		};
+		9088EF6024DC574000BA5159 /* Redmond-TabbedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9088EF6124DC574000BA5159 /* Redmond_TabbedUITests.swift */,
+				9088EF6324DC574000BA5159 /* Info.plist */,
+			);
+			path = "Redmond-TabbedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9088EF3B24DC573E00BA5159 /* Redmond-Tabbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9088EF6624DC574000BA5159 /* Build configuration list for PBXNativeTarget "Redmond-Tabbed" */;
+			buildPhases = (
+				9088EF3824DC573E00BA5159 /* Sources */,
+				9088EF3924DC573E00BA5159 /* Frameworks */,
+				9088EF3A24DC573E00BA5159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Redmond-Tabbed";
+			productName = "Redmond-Tabbed";
+			productReference = 9088EF3C24DC573E00BA5159 /* Redmond-Tabbed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9088EF5124DC574000BA5159 /* Redmond-TabbedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9088EF6924DC574000BA5159 /* Build configuration list for PBXNativeTarget "Redmond-TabbedTests" */;
+			buildPhases = (
+				9088EF4E24DC574000BA5159 /* Sources */,
+				9088EF4F24DC574000BA5159 /* Frameworks */,
+				9088EF5024DC574000BA5159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9088EF5424DC574000BA5159 /* PBXTargetDependency */,
+			);
+			name = "Redmond-TabbedTests";
+			productName = "Redmond-TabbedTests";
+			productReference = 9088EF5224DC574000BA5159 /* Redmond-TabbedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9088EF5C24DC574000BA5159 /* Redmond-TabbedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9088EF6C24DC574000BA5159 /* Build configuration list for PBXNativeTarget "Redmond-TabbedUITests" */;
+			buildPhases = (
+				9088EF5924DC574000BA5159 /* Sources */,
+				9088EF5A24DC574000BA5159 /* Frameworks */,
+				9088EF5B24DC574000BA5159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9088EF5F24DC574000BA5159 /* PBXTargetDependency */,
+			);
+			name = "Redmond-TabbedUITests";
+			productName = "Redmond-TabbedUITests";
+			productReference = 9088EF5D24DC574000BA5159 /* Redmond-TabbedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9088EF3424DC573E00BA5159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Brian Redmond";
+				TargetAttributes = {
+					9088EF3B24DC573E00BA5159 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9088EF5124DC574000BA5159 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9088EF3B24DC573E00BA5159;
+					};
+					9088EF5C24DC574000BA5159 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9088EF3B24DC573E00BA5159;
+					};
+				};
+			};
+			buildConfigurationList = 9088EF3724DC573E00BA5159 /* Build configuration list for PBXProject "Redmond-Tabbed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9088EF3324DC573E00BA5159;
+			productRefGroup = 9088EF3D24DC573E00BA5159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9088EF3B24DC573E00BA5159 /* Redmond-Tabbed */,
+				9088EF5124DC574000BA5159 /* Redmond-TabbedTests */,
+				9088EF5C24DC574000BA5159 /* Redmond-TabbedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9088EF3A24DC573E00BA5159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9088EF4C24DC574000BA5159 /* LaunchScreen.storyboard in Resources */,
+				9088EF4924DC574000BA5159 /* Assets.xcassets in Resources */,
+				9088EF4724DC573E00BA5159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088EF5024DC574000BA5159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088EF5B24DC574000BA5159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9088EF3824DC573E00BA5159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9088EF4424DC573E00BA5159 /* ViewController.swift in Sources */,
+				9088EF4024DC573E00BA5159 /* AppDelegate.swift in Sources */,
+				9088EF4224DC573E00BA5159 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088EF4E24DC574000BA5159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9088EF5724DC574000BA5159 /* Redmond_TabbedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088EF5924DC574000BA5159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9088EF6224DC574000BA5159 /* Redmond_TabbedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9088EF5424DC574000BA5159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9088EF3B24DC573E00BA5159 /* Redmond-Tabbed */;
+			targetProxy = 9088EF5324DC574000BA5159 /* PBXContainerItemProxy */;
+		};
+		9088EF5F24DC574000BA5159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9088EF3B24DC573E00BA5159 /* Redmond-Tabbed */;
+			targetProxy = 9088EF5E24DC574000BA5159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9088EF4524DC573E00BA5159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9088EF4624DC573E00BA5159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9088EF4A24DC574000BA5159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9088EF4B24DC574000BA5159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9088EF6424DC574000BA5159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9088EF6524DC574000BA5159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9088EF6724DC574000BA5159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Redmond-Tabbed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Forest-Evergreen.Redmond-Tabbed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9088EF6824DC574000BA5159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Redmond-Tabbed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Forest-Evergreen.Redmond-Tabbed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9088EF6A24DC574000BA5159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Redmond-TabbedTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Forest-Evergreen.Redmond-TabbedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redmond-Tabbed.app/Redmond-Tabbed";
+			};
+			name = Debug;
+		};
+		9088EF6B24DC574000BA5159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Redmond-TabbedTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Forest-Evergreen.Redmond-TabbedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redmond-Tabbed.app/Redmond-Tabbed";
+			};
+			name = Release;
+		};
+		9088EF6D24DC574000BA5159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Redmond-TabbedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Forest-Evergreen.Redmond-TabbedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Redmond-Tabbed";
+			};
+			name = Debug;
+		};
+		9088EF6E24DC574000BA5159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Redmond-TabbedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Forest-Evergreen.Redmond-TabbedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Redmond-Tabbed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9088EF3724DC573E00BA5159 /* Build configuration list for PBXProject "Redmond-Tabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9088EF6424DC574000BA5159 /* Debug */,
+				9088EF6524DC574000BA5159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9088EF6624DC574000BA5159 /* Build configuration list for PBXNativeTarget "Redmond-Tabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9088EF6724DC574000BA5159 /* Debug */,
+				9088EF6824DC574000BA5159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9088EF6924DC574000BA5159 /* Build configuration list for PBXNativeTarget "Redmond-TabbedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9088EF6A24DC574000BA5159 /* Debug */,
+				9088EF6B24DC574000BA5159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9088EF6C24DC574000BA5159 /* Build configuration list for PBXNativeTarget "Redmond-TabbedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9088EF6D24DC574000BA5159 /* Debug */,
+				9088EF6E24DC574000BA5159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9088EF3424DC573E00BA5159 /* Project object */;
+}
